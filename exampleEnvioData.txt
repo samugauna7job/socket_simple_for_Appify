@@ -1,0 +1,26 @@
+// import React from 'react';
+// import io from 'socket.io-client';
+
+// const MiComponente = () => {
+//     const enviarDatos = (datos) => {
+//         const socket = io('http://localhost:3000', {
+//             reconnection: true,
+//             reconnectionAttempts: 10,
+//             reconnectionDelayMax: 5000,
+//             transports: ['websocket']
+//         });
+        
+//         socket.emit('miEvento', datos);
+
+//         // Importante: cerrar la conexión después de emitir el evento
+//         socket.close();
+//     };
+
+//     return (
+//         <button onClick={() => enviarDatos({ data: 'algo' })}>
+//             Emitir Evento
+//         </button>
+//     );
+// };
+
+// export default MiComponente;
